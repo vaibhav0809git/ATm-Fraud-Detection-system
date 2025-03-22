@@ -1,0 +1,24 @@
+[
+    {
+        "transaction_id": "txn_001",
+        "account_number": "123456789",
+        "amount": 1500.00
+    },
+    {
+        "transaction_id": "txn_002",
+        "account_number": "987654321",
+        "amount": 500.00
+    },
+    {
+        "transaction_id": "txn_003",
+        "account_number": "123456789",
+        "amount": 2000.00
+    },
+    {
+        "is_fraud": true
+    },
+
+    {
+        "is_fraud": false
+    }
+]
