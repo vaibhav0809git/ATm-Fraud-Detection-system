@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ATM Fraud Detection</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ATM Fraud Detection System</h1>
+        <form id="transactionForm">
+            <input type="text" id="account_number" placeholder="Account Number" required>
+            <input type="number" id="amount" placeholder="Transaction Amount" required>
+            <input type="text" id="transaction_id" placeholder="Transaction ID" required>
+            <button type="submit">Submit Transaction</button>
+        </form>
+        <div id="result"></div>
+        <div id="successMessage" class="hidden">Transaction submitted successfully!</div>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>/
